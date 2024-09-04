@@ -1,2 +1,0 @@
-
-from .coco import CocoDetection
