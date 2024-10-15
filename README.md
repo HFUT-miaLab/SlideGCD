@@ -2,7 +2,7 @@
 
 This repository provides the Pytorch implementations of the paper titled "SlideGCD: Slide-based Graph Collaborative 
 Training with Knowledge Distillation for Whole Slide Image Classification" and accepted by Medical Image Computing 
-and Computer Assisted Intervention (MICCAI), 2024. The paper is available now at [Arxiv](https://arxiv.org/abs/2407.08968).
+and Computer Assisted Intervention (MICCAI), 2024. The paper has been officially published at [SpringerLink](https://link.springer.com/chapter/10.1007/978-3-031-72083-3_44) and is also available at [Arxiv](https://arxiv.org/abs/2407.08968).
 
 ## News
 
@@ -27,6 +27,10 @@ for patch extraction yourselves.
 ## Citation
 
 Please cite this work if you consider it useful via
+```
+Shu, T., Shi, J., Sun, D., Jiang, Z., Zheng, Y. (2024). SlideGCD: Slide-Based Graph Collaborative Training with Knowledge Distillation for Whole Slide Image Classification. In: Linguraru, M.G., et al. Medical Image Computing and Computer Assisted Intervention – MICCAI 2024. MICCAI 2024. Lecture Notes in Computer Science, vol 15004. Springer, Cham. https://doi.org/10.1007/978-3-031-72083-3_44
+```
+or
 ```
 Shu T, Shi J, Sun D, et al. SlideGCD: Slide-based Graph Collaborative Training with Knowledge Distillation for Whole 
 Slide Image Classification[J]. arXiv preprint arXiv:2407.08968, 2024.
