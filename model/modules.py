@@ -37,6 +37,34 @@ class AdaptiveGraphGenerator(nn.Module):
         return torch.stack([row, col], dim=0)
 
 
+class AdaptiveGraphGenerator_LC(nn.Module):
+    def __init__(self, k=4, feat_dim=512):
+        super(AdaptiveGraphGenerator_LC, self).__init__()
+
+        self.k = k
+
+        self.fc = nn.Sequential(
+            nn.Linear(feat_dim, feat_dim // 2),
+            nn.LeakyReLU()
+        )
+
+    def forward(self, x):
+        _x = self.fc(x)
+
+        edge_index = self.graph_edge(x=_x, k=self.k)
+        edge_attr = scatter_mean(src=x[edge_index[0]], index=edge_index[1], dim=0)
+
+        return edge_index, edge_attr
+
+    def graph_edge(self, x: torch.Tensor, k: int):
+        batch = torch.zeros(x.shape[0], dtype=torch.long).cuda()
+        edge_index = torch_cluster.knn(x, x, k, batch_x=batch, batch_y=batch, cosine=True)
+
+        row, col = edge_index[1], edge_index[0]
+
+        return torch.stack([row, col], dim=0)
+
+
 class SlideGCN(torch.nn.Module):
     def __init__(self, feat_dim, num_node, out_dim):
         super().__init__()
