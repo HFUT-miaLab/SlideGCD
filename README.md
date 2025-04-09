@@ -6,6 +6,8 @@ and Computer Assisted Intervention (MICCAI), 2024. The paper has been officially
 
 ## News
 
+**09/04/2025 The related source code of the extensive vision manuscript is now released, indicated as SlideGCDv2.**
+
 **14/10/2024 The extensive vision of this conference paper is now preprinted at [ArXiv](https://arxiv.org/abs/2410.10260), and its related source code will be released soon.**
 
 **14/10/2024 A new interactable visualization of the Slide-based Graph is being planned and will be released soon.**
