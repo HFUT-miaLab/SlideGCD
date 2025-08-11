@@ -1,11 +1,12 @@
 # SlideGCD
 
-This repository provides the Pytorch implementations of the paper titled "SlideGCD: Slide-based Graph Collaborative 
-Training with Knowledge Distillation for Whole Slide Image Classification" and accepted by Medical Image Computing 
-and Computer Assisted Intervention (MICCAI), 2024. The paper has been officially published at [SpringerLink](https://link.springer.com/chapter/10.1007/978-3-031-72083-3_44) and is also available at [Arxiv](https://arxiv.org/abs/2407.08968).
+This repository provides the Pytorch implementations of the papers titled "SlideGCD: Slide-based Graph Collaborative 
+Training with Knowledge Distillation for Whole Slide Image Classification" (accepted by Medical Image Computing 
+and Computer Assisted Intervention (MICCAI), 2024) and "Slide-based Graph Collaborative Training for Histopathology Whole Slide Image Analysis" (accepted by IEEE Transactions on Medical Imaging).
 
 ## News
 
+**19/05/2025 The extensive journal paper titled "Slide-based Graph Collaborative Training for Histopathology Whole Slide Image Analysis" has been accepted by IEEE Transactions on Medical Imaging [10.1109/TMI.2025.3571152](https://ieeexplore.ieee.org/abstract/document/11007022)!**
 **09/04/2025 The related source code of the extensive version manuscript is now released, indicated as SlideGCDv2.**
 
 **14/10/2024 The extensive version of this conference paper is now preprinted at [ArXiv](https://arxiv.org/abs/2410.10260), and its related source code will be released soon.**
@@ -30,11 +31,10 @@ for patch extraction yourselves.
 
 Please cite this work if you consider it useful via
 ```
+J. Shi, T. Shu, Z. Jiang, W. Wang, H. Wu and Y. Zheng, "Slide-based Graph Collaborative Training for Histopathology Whole Slide Image Analysis," in IEEE Transactions on Medical Imaging, doi: 10.1109/TMI.2025.3571152.
+```
+and
+```
 Shu, T., Shi, J., Sun, D., Jiang, Z., Zheng, Y. (2024). SlideGCD: Slide-Based Graph Collaborative Training with Knowledge Distillation for Whole Slide Image Classification. In: Linguraru, M.G., et al. Medical Image Computing and Computer Assisted Intervention – MICCAI 2024. MICCAI 2024. Lecture Notes in Computer Science, vol 15004. Springer, Cham. https://doi.org/10.1007/978-3-031-72083-3_44
-```
-or
-```
-Shu T, Shi J, Sun D, et al. SlideGCD: Slide-based Graph Collaborative Training with Knowledge Distillation for Whole 
-Slide Image Classification[J]. arXiv preprint arXiv:2407.08968, 2024.
 ```
 and we will be very pleased.
