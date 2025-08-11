@@ -7,6 +7,7 @@ and Computer Assisted Intervention (MICCAI), 2024) and "Slide-based Graph Collab
 ## News
 
 **19/05/2025 The extensive journal paper titled "Slide-based Graph Collaborative Training for Histopathology Whole Slide Image Analysis" has been accepted by IEEE Transactions on Medical Imaging [10.1109/TMI.2025.3571152](https://ieeexplore.ieee.org/abstract/document/11007022)!**
+
 **09/04/2025 The related source code of the extensive version manuscript is now released, indicated as SlideGCDv2.**
 
 **14/10/2024 The extensive version of this conference paper is now preprinted at [ArXiv](https://arxiv.org/abs/2410.10260), and its related source code will be released soon.**
